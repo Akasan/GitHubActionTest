@@ -1,5 +1,7 @@
+# workflowの名前
 name: Sample actions
 
+# トリガーの設定
 on:
   push:
     branches: main # mainブランチの場合はmainに変更
@@ -10,5 +12,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+
       - name: Run a one-line script
         run: echo Hello, world! # Hello, world!と出力する
