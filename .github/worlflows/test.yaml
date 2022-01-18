@@ -2,7 +2,7 @@ name: Sample actions
 
 on:
   push:
-    branches: master # mainブランチの場合はmainに変更
+    branches: main # mainブランチの場合はmainに変更
 
 jobs:
   build:
